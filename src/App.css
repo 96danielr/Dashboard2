@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard-graph {
+
+  width: 30rem;
+}
+
+.container{
+
+  display: flex;
+  flex-direction: row;
+  gap:8rem;
+ 
+  width: 100%;
+  
+}
+
+.hide-button{
+  width: 2rem;
+  height: 2rem;
+}
+
+.container-inputs{
+
+  padding-top: 1rem;
+}
+
+label{
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+  padding-right: 2rem;
+  justify-content: center;
+}
+
+input{
+
+  width: 30%;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 19px;
+  color: grey;
+  box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
+  transition: .5s;
+  padding: 10px 55px 10px 15px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 1.4285em;
+
+
+}
